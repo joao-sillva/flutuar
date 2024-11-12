@@ -58,3 +58,16 @@ footer a {
 footer a + a {
   margin-left: 30px;
 }
+
+#line {
+  width: 391px;
+  height: 0;
+  margin: 0 auto 16px;
+  border: 1px solid #ECEFF2;  
+}
+
+#wave {
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+}
