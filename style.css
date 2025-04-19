@@ -6,6 +6,12 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+main {
+  width: 626px;
+  margin: 64px auto;
 }
 
 main h1 {
@@ -33,9 +39,17 @@ main p span {
   font-weight: 700;
 }
 
+main p + p {
+  margin-top: 30px;
+}
+
 footer a {
   color: #3F3D56;
   font-size: 15px;
   font-weight: 700;
   text-decoration: none;
+}
+
+footer a + a {
+  margin-left: 30px;
 }
