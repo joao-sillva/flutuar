@@ -78,3 +78,22 @@ footer a + a {
   width: 100%;
   padding-top: 3rem;
 }
+
+@media (width < 78em) {
+  main {
+    max-width: 30.8rem;
+    padding-inline: 2rem;
+  }
+
+  main img {
+    width: 100%;
+  }
+
+  main h1 {
+    font-size: 3.2rem;
+  }
+
+  #line {
+    width: 30rem;
+  }
+}
