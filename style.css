@@ -4,27 +4,32 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
   text-align: center;
 }
 
 main {
-  width: 626px;
-  margin: 64px auto;
+  width: 62.6rem;
+  margin: 6.4rem auto;
 }
 
 main img {
-  margin-bottom: 32px;
+  margin-bottom: 3.2rem;
 }
 
 main h1 {
   font-family: "Dosis", sans-serif;
   color: #3F3D56;
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 500;
-  text-shadow: 0 0.4px 0.4px rgba(0, 0, 0, 0.25);
-  margin-bottom: 16px;
+  text-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  margin-bottom: 1.6rem;
 }
 
 main h1 span {
@@ -34,9 +39,9 @@ main h1 span {
 
 main p {
   color: #828282;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 2.2rem;
 }
 
 main p span {
@@ -45,24 +50,24 @@ main p span {
 }
 
 main p + p {
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 
 footer a {
   color: #3F3D56;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 700;
   text-decoration: none;
 }
 
 footer a + a {
-  margin-left: 30px;
+  margin-left: 3rem;
 }
 
 #line {
-  width: 391px;
+  width: 39.1rem;
   height: 0;
-  margin: 0 auto 16px;
+  margin: 0 auto 1.6rem;
   border: 1px solid #ECEFF2;  
 }
 
@@ -71,5 +76,5 @@ footer a + a {
   bottom: 0;
   display: flex;
   width: 100%;
-  padding-top: 30px;
+  padding-top: 3rem;
 }
